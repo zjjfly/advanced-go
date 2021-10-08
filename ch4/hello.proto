@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package ch4;
+
+message String {
+    string value = 1;
+}
+
+service WorkerService {
+    rpc Work (String) returns (String);
+}

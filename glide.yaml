@@ -1,0 +1,4 @@
+package: github.com/zjjfly/AdvancedGo
+import:
+  - package: github.com/stretchr/testify/assert
+  - package: github.com/spaolacci/murmur3
