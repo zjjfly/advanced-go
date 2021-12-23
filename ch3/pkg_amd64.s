@@ -12,7 +12,7 @@ DATA ·Id+6(SB)/1,$0x00
 DATA ·Id+7(SB)/1,$0x00
 
 //用汇编声明一个string
-//NOPTR是必须的,因为汇编声明的至少内存块,而go的垃圾回收器需要知道对象是否包含指针
+//NOPTR是必须的,因为汇编声明的只是内存块,而go的垃圾回收器需要知道对象是否包含指针
 //而NOPTR就是表明NameData不包含指针
 GLOBL ·NameData(SB),NOPTR,$8
 DATA ·NameData(SB)/8,$"gopher"

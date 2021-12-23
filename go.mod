@@ -1,4 +1,4 @@
-module advanced-go
+module github.com/zjjfly/advanced-go
 
 go 1.17
 

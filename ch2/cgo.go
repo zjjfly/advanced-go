@@ -10,7 +10,7 @@ void printint(int v) {
 */
 import "C"
 import (
-	"advanced-go/ch2/cgo_helper"
+	"github.com/zjjfly/advanced-go/ch2/cgo_helper"
 )
 
 //上面导入的这个包C实际是一个虚包，实际cgo在这个包中找到的所有c函数的字段
